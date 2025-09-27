@@ -11,4 +11,4 @@ spec:
     - protocol: TCP
       port: 8080                 # Service port inside the cluster
       targetPort: 8080           # Pod container port
-      nodePort: 30090            # Node port accessible via EC2 public IP
+      nodePort: 30080            # Node port accessible via EC2 public IP
